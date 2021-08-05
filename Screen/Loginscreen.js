@@ -137,7 +137,7 @@ export default class Loginscreen extends React.Component {
                                         placeholder="Class"
                                         variant="underlined"
                                         _light={{
-                                            placeholderTextColor: "blueGray.401",
+                                            placeholderTextColor: "blueGray.400",
                                         }}
                                         _dark={{
                                             placeholderTextColor: "blueGray.50",
@@ -149,7 +149,7 @@ export default class Loginscreen extends React.Component {
                                         value={this.state.Email}
                                         onChangeText={(Email) => { this.setState({ Email }) }}
                                     />
-                                    <Input placeholder='Phone  number'
+                                    <Input placeholder='Phone number'
                                         value={this.state.PhoneNo}
                                         onChangeText={(PhoneNo) => { this.setState({ PhoneNo }) }}
                                     />
