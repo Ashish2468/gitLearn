@@ -149,7 +149,7 @@ export default class Loginscreen extends React.Component {
                                         value={this.state.Email}
                                         onChangeText={(Email) => { this.setState({ Email }) }}
                                     />
-                                    <Input placeholder='Phone number'
+                                    <Input placeholder='Phone  number'
                                         value={this.state.PhoneNo}
                                         onChangeText={(PhoneNo) => { this.setState({ PhoneNo }) }}
                                     />
